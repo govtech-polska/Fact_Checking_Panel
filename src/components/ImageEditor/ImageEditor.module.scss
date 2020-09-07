@@ -1,0 +1,22 @@
+@import '~styles/variables';
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  background: red;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  margin: 0 $space-s;
+}

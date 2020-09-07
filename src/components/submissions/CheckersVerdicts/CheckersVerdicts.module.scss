@@ -1,0 +1,10 @@
+@import '~styles/variables';
+
+.wrapper {
+  margin-bottom: $space-l;
+}
+
+.tabs {
+  position: relative;
+  z-index: 9;
+}

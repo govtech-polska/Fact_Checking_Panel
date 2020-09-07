@@ -1,0 +1,13 @@
+@import '~styles/variables';
+
+.statusActive {
+  color: $green;
+}
+
+.statusExpired {
+  color: $red-light;
+}
+
+.sortableLabel {
+  text-decoration: underline;
+}

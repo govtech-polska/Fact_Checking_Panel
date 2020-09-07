@@ -1,0 +1,77 @@
+@import '~styles/variables';
+
+.container {
+  padding: $space-l;
+  margin-bottom: $space-m;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid $gray-light;
+  margin-bottom: $space-m;
+}
+
+.additionalText {
+  color: $gray;
+}
+
+.textWrap {
+  overflow-wrap: break-word;
+}
+
+.link {
+  overflow-wrap: break-word;
+
+  svg {
+    font-size: 18px;
+    margin-right: $space-s;
+    float: left;
+  }
+}
+
+.editBtn {
+  margin-left: auto;
+  margin-top: $space-m;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  margin-bottom: $space-m;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  button {
+    margin-left: $space-m;
+  }
+}
+
+.alert {
+  margin-bottom: $space-m;
+}
+
+.skeleton {
+  padding: $space-l;
+  margin-bottom: $space-m;
+}
+
+.skeletonImg {
+  margin-bottom: $space-m;
+}
+
+.noImageInfoWrapper {
+  display: flex;
+  margin-bottom: $space-l;
+  align-items: center;
+  justify-content: space-between;
+}

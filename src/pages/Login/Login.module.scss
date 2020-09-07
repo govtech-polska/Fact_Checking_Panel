@@ -1,0 +1,52 @@
+@import '~styles/variables';
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.paper {
+  padding: $space-l;
+  padding-top: $space-xl;
+  max-width: 420px;
+  position: relative;
+  z-index: 1;
+}
+
+.title,
+.alert,
+.field,
+.button {
+  margin-bottom: $space-m;
+}
+
+.subtitle {
+  margin-bottom: $space-l;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: $space-l;
+}
+
+.field {
+  width: 100%;
+}
+
+.checkbox {
+  font-size: 14px;
+}
+
+.link {
+  text-align: center;
+  display: block;
+}
+
+.decoration {
+  margin: -1 * $space-l;
+  z-index: -1;
+}

@@ -1,0 +1,303 @@
+{
+  "filters": {
+    "showAll": "Pokaż wszystkie",
+    "specialization": "Specjalizacja",
+    "verdict": "Werdykt",
+    "expertVerdict": "Werdykt eksperta",
+    "isPublished": "Czy opublikowane?",
+    "isDuplicate": "Czy duplikat?",
+    "isPinned": "Czy przypięte na portalu?",
+    "deleted": "Czy usunięte?",
+    "spam": "Spam",
+    "isSensitive": "Wrażliwe słowa",
+    "assignedToMe": "Przypisane do mnie",
+    "verificationStatus": "Staus weryfikacji",
+    "yes": "Tak",
+    "no": "Nie",
+    "tags": "Tagi",
+    "categories": "Kategorie",
+    "published": "Opublikowane",
+    "unpublished": "Nieopublikowane",
+    "includeSensitiveWords": "Zawiera wrażliwe słowa",
+    "notIncludeSensitiveWords": "Nie zawiera wrażliwych słów",
+    "spamTrue": "Jest spamem",
+    "spamFalse": "Nie jest spamem",
+    "duplicateTrue": "Jest duplikatem",
+    "duplicateFalse": "Nie jest duplikatem",
+    "waitingForAcceptance": "Czeka na akceptację",
+    "noExpertVerdict": "Nie posiada werdyktu"
+  },
+  "verdictFormOptions": {
+    "verdict": "Weryfikowalne",
+    "spam": "Nie nadaje się do weryfikacji",
+    "duplicate": "Duplikat"
+  },
+  "verdictTypes": {
+    "no_verdict": "Brak werdyktu",
+    "true": "Prawda",
+    "false": "Fake News",
+    "unidentified": "Nieweryfikowalne",
+    "spam": "Spam",
+    "awaiting": "Czeka na werdykt eksperta",
+    "dispute": "Spór"
+  },
+  "specializationTypes": {
+    "journalism": "Dziennikarstwo",
+    "biology": "Biologia",
+    "physics": "Fizyka",
+    "IT": "IT",
+    "chemistry": "Chemia",
+    "economy": "Ekonomia",
+    "other": "Inne"
+  },
+  "rolesNames": {
+    "admin": "Administrator",
+    "moderator": "Moderator",
+    "expert": "Ekspert PAP",
+    "specialist": "Specjalista",
+    "fact_checker": "Społeczność"
+  },
+  "menuItems": {
+    "submissions": "Zgłoszenia",
+    "history": "Historia",
+    "settings": "Ustawienia",
+    "community": "Społeczność",
+    "experts": "Eksperci",
+    "invitations": "Zaproszenia",
+    "specialists": "Specjaliści",
+    "moderators": "Moderatorzy",
+    "guide": "Przewodnik"
+  },
+  "common": {
+    "save": "Zapisz",
+    "edit": "Edytuj",
+    "approve": "Zatwierdź",
+    "update": "Aktualizuj",
+    "cancel": "Anuluj",
+    "send": "Wyślij",
+    "noResults": "Brak wyników.",
+    "updated": "Zaktualizowano!",
+    "saved": "Zapisano!"
+  },
+  "layout": {
+    "textUnderLogo": "Panel administracyjny",
+    "logout": "Wyloguj"
+  },
+  "fields": {
+    "email": "E-mail",
+    "password": "Hasło",
+    "repeatPassword": "Powtórz hasło",
+    "nameAndSurname": "Imię i nazwisko",
+    "specialization": "Specjalizacja",
+    "search": "Wyszukaj",
+    "language": "Język"
+  },
+  "login": {
+    "title": "Zaloguj się",
+    "subtitle": "Dziękujemy, że razem z nami walczysz z dezinformacją towarzyszącą epidemii koronawirusa! #fakehunter.",
+    "rememberMe": "Zapamiętaj mnie",
+    "btn": "Zaloguj się",
+    "forgotPassword": "Nie pamiętasz hasła?",
+    "cta": "Chcesz dołączyć do społeczności walczącej z dezinformacją? Zgłoś się!"
+  },
+  "register": {
+    "title": "Rejestracja",
+    "subtitle": "Dziękujemy za przesłane zgłoszenie! Zarejestruj się i dołącz do społecznośći #fakehunter.",
+    "success": "Registration was successful! <2>Go to login page</2>.",
+    "alreadyHaveAccount": "Masz już konto? Zaloguj się!",
+    "agreement": "Wyrażam zgodę na przetwarzanie moich danych osobowych (tj. imienia i nazwiska oraz adresu e-mail) w celu założenia i obsługi konta na niniejszym portalu internetowym. Wiem, że wyrażenie zgody jest dobrowolne, lecz konieczne w celu dokonania rejestracji. Zgodę mogę wycofać w każdej chwili.",
+    "sendBtn": "Zarejestruj się"
+  },
+  "passwordReset": {
+    "title": "Resetowanie hasła",
+    "subtitle": "Ustaw nowe hasło. Hasło powinno zawierać co najmniej 8 znaków, jedną wielką literę, cyfrę i znak specjalny.",
+    "success": "Twoje hasło zostało zmienione. Przejdź do <2>logowania</2>.",
+    "btn": "Zmień hasło",
+    "backToLogin": "Wróć do logowania"
+  },
+  "passwordResetRequest": {
+    "title": "Resetowanie hasła",
+    "subtitle": "Wprowadź e-mail użyty przy zakładaniu konta. Wyślemy na niego instrukcję dotyczącą resetowania hasła.",
+    "success": "Na podany e-mail wysłaliśmy dalsze instrukcje dotyczące resetowania hasła.",
+    "btn": "Wyślij",
+    "backToLogin": "Wróć do logowania"
+  },
+  "submissions": {
+    "title": "Zgłoszenia",
+    "sourceLink": "Link źródłowy",
+    "details": "Szczegóły",
+    "duplicate": "Duplikat",
+    "sensitive": "Sensitive words",
+    "comment": "Komentarz",
+    "assignedToMe": "Przypisane do mnie",
+    "assignedToOther": "Przypisane do innego eksperta",
+    "pinned": "Przypięte na portalu",
+    "verifiedByYou": "Zweryfikowane przez Ciebie"
+  },
+  "history": {
+    "title": "Historia zgłoszeń",
+    "noResults": "Brak wyników."
+  },
+  "users": {
+    "nameAndSurname": "Imię i nazwisko",
+    "email": "Adres e-mail",
+    "specialization": "Specjalizacja",
+    "verified": "Zweryfikowane",
+    "assigned": "Przypisane",
+    "registerDate": "Data rejestracji",
+    "added": "Dodano",
+    "addNextBtn": "Dodaj kolejnego",
+    "addBtn": "Dodaj",
+    "specialistInfo": "Dodaj najpierw kategorie tematyczne w ustawieniach.",
+    "changeRole": "Zmień rolę",
+    "deactivate": "Dezaktywuj konto",
+    "specialistDomain": "Przypisana kategoria",
+    "specialistDomainModal": "Kategoria specjalisty",
+    "noDataInfo": "Brak danych do wyświetlenia."
+  },
+  "community": {
+    "title": "Społeczność",
+    "addUser": "Dodaj fact checkera",
+    "options": "Opcje",
+    "deactivate": "Dezaktywuj konto",
+    "activate": "Aktywuj konto",
+    "promote": "Przydziel rolę eksperta"
+  },
+  "experts": {
+    "title": "Eksperci",
+    "addUser": "Dodaj eksperta",
+    "deactivate": "Dezaktywuj",
+    "activate": "Aktywuj"
+  },
+  "invitations": {
+    "title": "Zaproszenia",
+    "email": "E-mail",
+    "sendDate": "Data wysłania",
+    "status": "Status zaproszenia",
+    "linkStatus": "Status linku",
+    "linkIsActive": "Link aktywny",
+    "linkIsExpired": "Ważność linku wygasła",
+    "states": {
+      "waiting": "Oczekujące",
+      "used": "Wykorzystane",
+      "failed": "Błąd wysyłki",
+      "in_progress": "W trakcie rejestracji"
+    }
+  },
+  "tags": {
+    "label": "Tagi",
+    "add": "Dodaj: \"{{tag}}\"",
+    "tagsUpdated": "Tagi zaktualizowane!",
+    "errorSubmission": "Zgłoszenie może mieć maksymalnie 6 tagów."
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "sensitiveWords": {
+      "title": "Słowa wrażliwe",
+      "info": "Moduł ten pozwala na dodanie wyrazów wrażliwych. Jeżeli słowa wrażliwe pojawią się w zgłaszanym tekście to na portalu werdykt opublikuje się dopiero po werdykcie eksperta.",
+      "inputLabel": "Nowe wrażliwe słowo"
+    },
+    "notifications": {
+      "title": "Subskrybcja powiadomień email",
+      "info": "Ta sekcja pozwala na zarządzanie powiadomieniami email. Możesz zezwolić lub zrezygnować z dostawania powiadomień na temat nowych zgłoszeń.",
+      "inputLabel": "Powiadomienia email"
+    },
+    "domains": {
+      "title": "Kategorie",
+      "info": "Moduł ten pozwala na dodanie kategorii newsów. Kategorie te używane są do dzielenia zgłoszeń według dziedzin i przypisywania ich do specjalistów (ekspertów tematycznych).",
+      "inputLabel": "Nowa kategoria"
+    },
+    "tags": {
+      "title": "Tagi",
+      "info": "Moduł ten pozwala na edycje tagów (hashtagów). Tagi pozwalają grupować zgłoszenia powiązane ze sobą tematycznie.",
+      "inputLabel": "Nowy tag"
+    },
+    "password": {
+      "title": "Zmiana hasła",
+      "info": "Nowe hasło powinno zawierać: co najmniej 8 znaków, minimum jedną wielką literę, minimum jedną cyfrę, minimum jeden znak specjalny",
+      "actualPassword": "Aktualne hasło",
+      "newPassword": "Nowe hasło",
+      "repeatNewPassword": "Powtórz nowe hasło",
+      "button": "Zmień hasło",
+      "successMsg": "Twoje hasło zostało pomyślnie zmienione!"
+    },
+    "addBtn": "Dodaj"
+  },
+  "details": {
+    "title": "Zgłoszenie",
+    "formSent": "Formularz wysłany",
+    "backToList": "Lista zgłoszeń",
+    "expertVerdict": "Werdykt eksperta",
+    "submissionRemoved": "Zgłoszenie usunięte",
+    "removeBtn": "Usuń zgłoszenie",
+    "recoverBtn": "Przywróć zgłoszenie",
+    "zoomPhoto": "Powiększ zdjęcie",
+    "sensitiveWords": "Słowa wrażliwe: ",
+    "reportedAt": "Data zgłoszenia: ",
+    "userComment": "Komentarz od użytkownika",
+    "informationContent": "Treść zgłoszenia",
+    "sourceLink": "Link źródłowy",
+    "factCheckerVerdictTitle": "Werdykty społeczności",
+    "factCheckerVerdict": "Werdykt fact checkera",
+    "noFactCheckerVerdict": "Brak werdyktów fake hunterów.",
+    "noExpertVerdict": "Werdykt eksperta",
+    "assignedToMe": "To zgłoszenie jest przypisane do Ciebie!",
+    "assignedToOther": "To zgłoszenie zostało przydzielone innemu ekspertowi.",
+    "dismissAssigment": "Zrezygnuj z przypisania",
+    "domains": "Przypisano do kategorii: "
+  },
+  "adminDetails": {
+    "pinSubmission": "Przypnij zgłoszenie na portalu",
+    "unpinSubmission": "Odepnij zgłoszenie",
+    "removed": "Zgłoszenie usunięte",
+    "removeSubmission": "Usuń zgłoszenie",
+    "restoreSubmission": "Przywróć zgłoszenie",
+    "noScreenshot": "To zgłoszenie nie zawiera zrzutu ekranu.",
+    "uploadScreenshot": "Wgraj zrzut ekranu",
+    "editImage": "Edytuj zdjęcie",
+    "uploadNewImage": "Wgraj nowe zdjęcie",
+    "editSubmission": "Edytuj treść",
+    "dropzoneInfo": "Przeciągnij plik lub kliknij"
+  },
+  "verification": {
+    "title": "Formularz weryfikacji",
+    "sendBtn": "Zweryfikuj zgłoszenie",
+    "formType": "Rodzaj zgłoszenia",
+    "duplicate": "Zgłoszenie zduplikowane",
+    "duplicateLink": "Link do zgłoszenia",
+    "duplicateLinkHelp": "Link z naszego systemu np. {{origin}}/submisions/e06339c3-3a43-444e-908b-1ba02f9397a4",
+    "submissionTitle": "Tytuł",
+    "submissionTitleHelp": "Wpisz tytuł w formie pytania, np. „Czy zwierzęta domowe mogą być nosicielami koronawirusa?”",
+    "aboutCoronavirus": "Dotyczy koronawirusa",
+    "yourVerdict": "Twój werdykt",
+    "verdict": "Werdykt",
+    "comment": "Uzasadnienie",
+    "sources": "Źródła",
+    "sourcesHelp": "Podaj źródła, na których opierasz swój werdykt",
+    "letterCount": "Liczba znaków: ",
+    "author": "Autor"
+  },
+  "languages": {
+    "pl": "Polski",
+    "en": "Angielski"
+  },
+  "validations": {
+    "required": "To pole jest wymagane",
+    "min": "To pole wymaga conajmniej {{min}} znaków",
+    "max": "To pole może zawierać maksymalnie {{max}} znaków",
+    "email": "Podaj prawidłowy adres e-mail",
+    "url": "Podaj prawidłowy adres URL",
+    "passwordMin": "Hasło nie może być krótsze niż 8 znaków.",
+    "passwordBigLetter": "Hasło musi posiadać co najmniej jedną wielką literę.",
+    "passwordNumber": "Hasło musi posiadać co najmniej jedną cyfrę.",
+    "passwordSpecial": "Hasło musi posiadać co najmniej jeden znak specjalny.",
+    "passwordRepeat": "Hasła muszą być takie same.",
+    "registerAgreement": "Wyrażenie zgodny na przetwarzanie danych osobowych jest konieczne do założenia konta",
+    "requiredDuplicateUrl": "Podaj link do zduplikowanego zgłoszenia",
+    "requiredTitle": "Nadaj tytuł temu zgłoszeniu",
+    "requiredVerdict": "Wskaż swój werdykt",
+    "requiredVerdictComment": "Uzasadnij swój werdykt",
+    "requiredSources": "Podaj wykorzystane źródła",
+    "minVerdictComment": "Uzasadnienie nie może być krótsze niż 500 znaków"
+  }
+}

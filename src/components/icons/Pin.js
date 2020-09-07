@@ -1,0 +1,14 @@
+import React from 'react';
+import { SvgIcon } from '@material-ui/core';
+
+const Pin = (props, ref) => {
+  return (
+    <SvgIcon ref={ref} {...props}>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M7 2h10v2l-2 1v5l3 3v3h-5v4l-1 3l-1-3v-4H6v-3l3-3V5L7 4z" />
+      </svg>
+    </SvgIcon>
+  );
+};
+
+export default React.forwardRef(Pin);

@@ -1,0 +1,98 @@
+@import '~styles/variables';
+@import '~styles/mixins';
+
+.card {
+  display: block;
+  width: 100%;
+  margin-bottom: $space-m;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+
+  &:hover {
+    .goIcon {
+      transform: translateX(5px);
+    }
+  }
+}
+
+.image {
+  width: 300px;
+}
+
+.content {
+  flex: 1;
+  padding: $space-m;
+  display: grid;
+  column-gap: $space-m;
+  row-gap: $space-xs;
+  grid-template-columns: auto min-content;
+  grid-template-areas:
+    '. verdict'
+    '. .'
+    '. .';
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: $space-xs;
+  grid-column: 1 / 2;
+}
+
+.label {
+  margin-right: $space-m;
+  width: 50px;
+  color: $gray;
+}
+
+.commentLabel {
+  grid-column: 1 / 3;
+  color: $gray;
+  // margin-right: $space-m;
+  // width: 50px;
+}
+
+.comment {
+  grid-column: 1 / 3;
+}
+
+.dateLabel {
+  color: $gray;
+  margin-right: $space-m;
+}
+
+.goIcon {
+  transition: all 0.2s ease;
+}
+
+.verdictWrapper {
+  grid-area: verdict;
+  display: flex;
+  align-items: center;
+}
+
+.verdict {
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+  margin-left: $space-xs;
+}
+
+.verdictTrue {
+  background: $verdict-true;
+  color: $white;
+}
+
+.verdictFalse {
+  background: $verdict-false;
+  color: $white;
+}
+
+.verdictSensitive {
+  background: $verdict-sensitive;
+  color: $white;
+}

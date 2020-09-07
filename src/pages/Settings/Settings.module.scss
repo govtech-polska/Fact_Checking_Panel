@@ -1,0 +1,44 @@
+@import '~styles/variables';
+
+.passwordWrapper {
+  padding: $space-m;
+  max-width: 360px;
+  margin-bottom: $space-m;
+}
+
+.keywordsWrapper {
+  padding: $space-m;
+  margin-bottom: $space-m;
+}
+
+.keywordsForm {
+  display: flex;
+  align-items: baseline;
+}
+
+.keywordsList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  margin-bottom: $space-m;
+
+  li {
+    margin: $space-xs;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  width: 100%;
+  margin-bottom: $space-m;
+}
+
+.addBtn {
+  margin-left: $space-m;
+}

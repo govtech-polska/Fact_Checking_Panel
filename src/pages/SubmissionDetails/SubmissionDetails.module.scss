@@ -1,0 +1,53 @@
+@import '~styles/variables';
+
+.container {
+  margin: 0 auto;
+  margin-bottom: $space-l;
+  max-width: 800px;
+}
+
+.successContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: $space-l 0;
+  min-height: 500px;
+}
+
+.successText {
+  display: flex;
+  align-items: center;
+  margin: $space-m;
+  color: $green;
+
+  & > span {
+    margin-left: $space-s;
+    font-size: 1.2rem;
+  }
+}
+
+.removeWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  justify-content: flex-end;
+
+  button {
+    margin-left: 40px;
+  }
+}
+
+.domainsChipsWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: $space-m;
+}
+
+.domainsChip {
+  margin-left: $space-s;
+}
+
+.assignedInfo {
+  margin-bottom: $space-m;
+}

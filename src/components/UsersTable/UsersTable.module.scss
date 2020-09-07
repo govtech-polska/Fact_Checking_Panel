@@ -1,0 +1,21 @@
+@import '~styles/variables';
+
+.container {
+  overflow: auto;
+  width: 100%;
+}
+
+.loader {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannedBtn {
+  color: $red-light;
+}
+
+.sortableText {
+  text-decoration: underline;
+}

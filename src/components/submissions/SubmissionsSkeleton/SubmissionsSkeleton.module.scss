@@ -1,0 +1,17 @@
+@import '~styles/variables';
+
+.skeleton {
+  display: flex;
+  margin-bottom: $space-m;
+}
+
+.skeletonContent {
+  padding: $space-m;
+  flex-grow: 1;
+}
+
+.skeletonText {
+  &:last-of-type {
+    width: 40%;
+  }
+}

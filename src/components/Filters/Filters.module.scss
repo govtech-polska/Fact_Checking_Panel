@@ -1,0 +1,18 @@
+@import '~styles/variables';
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+  grid-gap: $space;
+  justify-items: stretch;
+  padding: $space-m;
+  margin-bottom: $space-l;
+}
+
+.defaultValue {
+  color: $blue-light;
+}
+
+.inputLabel {
+  white-space: nowrap;
+}

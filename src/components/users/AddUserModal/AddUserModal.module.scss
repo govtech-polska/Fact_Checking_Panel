@@ -1,0 +1,18 @@
+@import '~styles/mixins';
+@import '~styles/variables';
+
+.field {
+  width: 100%;
+}
+
+.success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $green;
+  font-size: 1.2rem;
+
+  span {
+    margin-left: $space-s;
+  }
+}

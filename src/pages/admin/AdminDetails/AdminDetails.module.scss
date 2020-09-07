@@ -1,0 +1,75 @@
+@import '~styles/variables';
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  margin-bottom: $space-l;
+}
+
+.successContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: $space-l 0;
+  min-height: 500px;
+}
+
+.successText {
+  display: flex;
+  align-items: center;
+  margin: $space-m;
+  color: $green;
+
+  & > span {
+    margin-left: $space-s;
+    font-size: 1.2rem;
+  }
+}
+
+.divider {
+  margin: $space-l 0;
+}
+
+.removeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: $space-m;
+
+  button {
+    margin-left: 40px;
+  }
+}
+
+.domainsForm {
+  padding: $space-m;
+  display: flex;
+  align-items: flex-end;
+}
+
+.assignExpertInfo,
+.assignExpert {
+  padding: $space-m;
+  margin-bottom: $space-m;
+}
+
+.assignExpert {
+  display: flex;
+  align-items: flex-end;
+}
+
+.assignExpertInfoLabel {
+  color: $gray-dark;
+}
+
+.domainsFormInput {
+  flex: 1;
+  margin-right: $space-m;
+}
+
+.assignItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

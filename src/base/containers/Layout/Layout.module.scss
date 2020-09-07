@@ -1,0 +1,68 @@
+@import '~styles/variables';
+
+$sidebar-width: 250px;
+
+.Layout {
+  display: flex;
+}
+
+.Drawer {
+  width: $sidebar-width;
+}
+
+.LogoWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: $space-m;
+  border-bottom: 1px solid $gray-light;
+  color: $pap-color;
+  line-height: 0;
+  height: 160px;
+
+  p {
+    color: $gray;
+    line-height: 0.8;
+  }
+}
+
+.Logo {
+  width: 100%;
+}
+
+.UserInfo {
+  margin-top: auto;
+  padding: $space-m;
+  border-top: 1px solid $gray-light;
+}
+
+.UserInfoWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: $space-m;
+}
+
+.Avatar {
+  margin-right: $space-s;
+}
+
+.UserName {
+  font-weight: 500;
+}
+
+.Main {
+  flex-grow: 1;
+  padding: $space-m;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.List {
+  height: 100%;
+}
+
+.LangSelect {
+  margin: $space-m auto;
+  width: 75%;
+}

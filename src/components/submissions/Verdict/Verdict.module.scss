@@ -1,0 +1,56 @@
+@import '~styles/variables';
+
+.paper {
+  padding: $space;
+}
+
+.field {
+  margin-bottom: $space;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+}
+
+.caption {
+  color: $gray-dark;
+  display: block;
+}
+
+.captionVerdict {
+  color: $gray-dark;
+  margin-right: $space;
+}
+
+.verdict {
+  color: $white;
+  text-transform: uppercase;
+}
+
+.verdictTrue {
+  background: $green;
+}
+
+.verdictFalse {
+  background: $red-light;
+}
+
+.verdictUnidentified {
+  background: $gray-dark;
+}
+
+.adminActions {
+  display: flex;
+  align-items: center;
+
+  .field {
+    margin-right: auto;
+  }
+}
+
+.adminBtn {
+  margin-left: $space-m;
+}
+
+.singleEditBtn {
+  margin-left: auto;
+  display: flex;
+}

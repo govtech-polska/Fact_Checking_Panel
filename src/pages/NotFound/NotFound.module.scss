@@ -1,0 +1,12 @@
+@import '~styles/variables';
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content {
+  padding: $space-xl;
+}

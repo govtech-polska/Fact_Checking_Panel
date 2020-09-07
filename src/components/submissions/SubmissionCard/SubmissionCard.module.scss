@@ -1,0 +1,105 @@
+@import '~styles/variables';
+@import '~styles/mixins';
+
+.card {
+  display: block;
+  width: 100%;
+  margin-bottom: $space-m;
+
+  @include media-breakpoint-up(sm) {
+    display: flex;
+  }
+}
+
+.image {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+
+  @include media-breakpoint-up(sm) {
+    height: 0;
+    width: 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    height: auto;
+    flex: 0 0 300px;
+    border-right: 1px solid $gray-light;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h2 {
+    font-weight: 700;
+  }
+}
+
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: $space-m;
+  color: $gray;
+}
+
+.verdict {
+  margin-left: auto;
+  text-transform: uppercase;
+}
+
+.verdictTrue {
+  background: $green;
+  color: $white;
+}
+
+.verdictFalse {
+  background: $red-light;
+  color: $white;
+}
+
+.verdictSensitive {
+  background: #a61dc9;
+  color: $white;
+}
+
+.content {
+  flex: 1;
+  padding: $space-m $space-l;
+}
+
+.text {
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.actions {
+  padding: 0;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.pinIcon {
+  height: 24px;
+  margin-left: $space-s;
+  margin-right: -1 * $space-m;
+}
+
+.assignedWrapper {
+  display: flex;
+}
+
+.assignedIcon,
+.assignedToMeIcon {
+  height: 24px;
+  margin-left: $space-s;
+  margin-right: -1 * $space-m;
+  color: $gray-darker;
+}
+
+.assignedToMeIcon {
+  color: $pap-color;
+}
