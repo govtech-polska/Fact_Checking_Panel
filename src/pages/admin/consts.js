@@ -12,16 +12,19 @@ export const USERS_FILTERS = [
   {
     name: 'is_active',
     label: 'Zdezaktywowane?',
+    i18nkey: 'filters.isActive',
     defaultValue: ALL_OPTIONS.value,
     options: [
       ALL_OPTIONS,
       {
         value: 'false',
-        label: 'Zdezaktywowane'
+        label: 'Zdezaktywowane',
+        i18nkey: 'filters.accountNotActive'
       },
       {
         value: 'true',
-        label: 'Aktywne'
+        label: 'Aktywne',
+        i18nkey: 'filters.accountActive'
       }
     ]
   }

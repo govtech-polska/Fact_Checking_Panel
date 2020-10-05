@@ -15,40 +15,48 @@ const FILTERS = [
   {
     name: 'status',
     label: 'Status zaproszenia',
+    i18nkey: 'invitations.status',
     defaultValue: ALL_OPTIONS.value,
     options: [
       ALL_OPTIONS,
       {
         label: 'Oczekujące',
-        value: 'waiting'
+        value: 'waiting',
+        i18nkey: 'invitations.states.waiting'
       },
       {
         label: 'Wykorzystane',
-        value: 'used'
+        value: 'used',
+        i18nkey: 'invitations.states.used'
       },
       {
         label: 'Błąd wysyłki',
-        value: 'failed'
+        value: 'failed',
+        i18nkey: 'invitations.states.failed'
       },
       {
         label: 'W trakcie rejestracji',
-        value: 'in_progress'
+        value: 'in_progress',
+        i18nkey: 'invitations.states.in_progress'
       }
     ]
   },
   {
     name: 'is_expired',
     label: 'Czy przeterminowane?',
+    i18nkey: 'filters.isExpired',
     defaultValue: ALL_OPTIONS.value,
     options: [
       ALL_OPTIONS,
       {
         label: 'Przeterminowane',
-        value: 'true'
+        value: 'true',
+        i18nkey: 'filters.yes'
       },
       {
         label: 'Nieprzeterminowane',
-        value: 'false'
+        value: 'false',
+        i18nkey: 'filters.no'
       }
     ]
   }

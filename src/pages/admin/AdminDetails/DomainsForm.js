@@ -26,11 +26,11 @@ const DomainsForm = ({ domains, onUpdate, defaultValue }) => {
         className={styles.domainsFormInput}
         onChange={handleChange}
         options={domains}
-        noOptionsText="Brak kategorii. Możesz dodać kategorie w ustawieniach."
+        noOptionsText={t('categories.noCategory')}
         getOptionLabel={option => option.name}
         getOptionSelected={(option, value) => option.id === value.id}
         value={value}
-        renderInput={params => <TextField {...params} label="Kategorie" />}
+        renderInput={params => <TextField {...params} label={t('categories.label')} />}
       />
       <Button variant="contained" color="primary" onClick={handleSave}>
         {t('common.save')}
