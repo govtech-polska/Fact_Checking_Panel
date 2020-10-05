@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { useTranslation } from 'react-i18next';
 
 import { Button } from '@material-ui/core';
 
@@ -22,6 +23,7 @@ const getFilters = (domainsOptions = []) => [
   {
     name: 'domain',
     label: 'Kategoria',
+    i18nkey: 'filters.category',
     defaultValue: ALL_OPTIONS.value,
     options: [ALL_OPTIONS, ...domainsOptions]
   },
@@ -29,6 +31,7 @@ const getFilters = (domainsOptions = []) => [
 ];
 
 const Specialists = () => {
+  const { t } = useTranslation();
   const query = useQuery();
   const dispatch = useDispatch();
   const [isOpen, setOpen] = useState(false);
@@ -69,13 +72,13 @@ const Specialists = () => {
 
   return (
     <>
-      <Title>Eksperci</Title>
+      <Title>{t('specialists.title')}</Title>
       <Filters
         filters={getFilters(domains.data?.results.map(domain => ({ label: domain.name, value: domain.name })))}
         withSearch
       >
         <Button onClick={openModal} className={styles.addButton} variant="contained" color="primary">
-          Dodaj specialistę
+          {t('specialists.addUser')}
         </Button>
       </Filters>
       <Suspense waitFor={specialists} polling>
@@ -89,7 +92,7 @@ const Specialists = () => {
         <Pagination total={specialists.data?.total} />
       </Suspense>
       <AddUserModal
-        title="Dodaj specjalistę"
+        title={t('specialists.addUser')}
         isOpen={isOpen}
         onClose={() => setOpen(false)}
         onSubmit={handleSubmit}
@@ -98,7 +101,7 @@ const Specialists = () => {
         isFetching={add.isFetching}
         domains={domains.data?.results.map(domain => ({ label: domain.name, value: domain.id }))}
       />
-      <Toast showOn={update.data}>Zapisano</Toast>
+      <Toast showOn={update.data}>{t('common.saved')}</Toast>
     </>
   );
 };

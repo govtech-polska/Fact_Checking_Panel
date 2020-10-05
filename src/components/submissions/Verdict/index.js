@@ -163,7 +163,7 @@ const Verdict = ({ values, onUpdate, onPublish, updateState, publishState, isPub
                   startIcon={<ClearIcon />}
                   disabled={publishState?.isFetching}
                 >
-                  Cofnij publikację
+                  {t('adminDetails.undoPublication')}
                 </Button>
               ) : (
                 <Button
@@ -174,7 +174,7 @@ const Verdict = ({ values, onUpdate, onPublish, updateState, publishState, isPub
                   startIcon={<PublicIcon />}
                   disabled={publishState?.isFetching}
                 >
-                  Opublikuj
+                  {t('adminDetails.publish')}
                 </Button>
               ))}
           </div>

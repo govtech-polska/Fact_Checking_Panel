@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { useTranslation } from 'react-i18next';
 
 import { Button } from '@material-ui/core';
 
@@ -19,6 +20,7 @@ import { USERS_FILTERS } from 'pages/admin/consts';
 import styles from './Experts.module.scss';
 
 const Experts = () => {
+  const { t } = useTranslation();
   const query = useQuery();
   const dispatch = useDispatch();
   const [isOpen, setOpen] = useState(false);
@@ -57,10 +59,10 @@ const Experts = () => {
 
   return (
     <>
-      <Title>Eksperci</Title>
+      <Title>{t('experts.title')}</Title>
       <Filters filters={USERS_FILTERS} withSearch>
         <Button onClick={openModal} className={styles.addButton} variant="contained" color="primary">
-          Dodaj eksperta
+          {t('experts.addUser')}
         </Button>
       </Filters>
       <Suspense waitFor={experts} polling>
@@ -74,7 +76,7 @@ const Experts = () => {
         <Pagination total={experts.data?.total} />
       </Suspense>
       <AddUserModal
-        title="Dodaj eksperta"
+        title={t('experts.addUser')}
         isOpen={isOpen}
         onClose={() => setOpen(false)}
         onSubmit={handleSubmit}
@@ -82,7 +84,7 @@ const Experts = () => {
         error={add.error}
         isFetching={add.isFetching}
       />
-      <Toast showOn={update.data}>Zaktualizowano</Toast>
+      <Toast showOn={update.data}>{t('common.updated')}</Toast>
     </>
   );
 };

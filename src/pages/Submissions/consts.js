@@ -143,32 +143,39 @@ const adminFilters = [
   {
     name: 'current_verdict',
     label: 'Werdykt',
+    i18nkey: 'filters.verdict',
     defaultValue: ALL_OPTIONS.value,
     options: [
       ALL_OPTIONS,
       {
         label: 'Brak werdyktu',
-        value: 'no_verdict'
+        value: 'no_verdict',
+        i18nkey: 'verdictTypes.no_verdict'
       },
       {
         label: 'Prawda',
-        value: 'true'
+        value: 'true',
+        i18nkey: 'verdictTypes.true'
       },
       {
         label: 'Fake News',
-        value: 'false'
+        value: 'false',
+        i18nkey: 'verdictTypes.false'
       },
       {
         label: 'Nieweryfikowalne',
-        value: 'unidentified'
+        value: 'unidentified',
+        i18nkey: 'verdictTypes.unidentified'
       },
       {
         label: 'Spam',
-        value: 'spam'
+        value: 'spam',
+        i18nkey: 'verdictTypes.spam'
       },
       {
         label: 'Czeka na werdykt eksperta',
-        value: 'awaiting'
+        value: 'awaiting',
+        i18nkey: 'verdictTypes.awaiting'
       }
     ]
   },
@@ -271,15 +278,18 @@ const adminFilters = [
     defaultValue: ALL_OPTIONS.value,
     name: 'is_verified_by_expert',
     label: 'Zweryfikowane przez eksperta?',
+    i18nkey: 'filters.verifiedByExpert',
     options: [
       ALL_OPTIONS,
       {
         label: 'Tak',
-        value: 'true'
+        value: 'true',
+        i18nkey: 'filters.yes'
       },
       {
         label: 'Nie',
-        value: 'false'
+        value: 'false',
+        i18nkey: 'filters.no'
       }
     ]
   }

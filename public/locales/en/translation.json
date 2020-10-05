@@ -3,10 +3,11 @@
     "showAll": "Show all",
     "specialization": "Specialization",
     "verdict": "Verdict",
-    "isPublished": "Is published?",
-    "isDuplicate": "Is duplicate?",
-    "isPinned": "Is pinned?",
-    "deleted": "Is deleted?",
+    "expertVerdict": "Expert's verdict",
+    "isPublished": "Is it published?",
+    "isDuplicate": "Is it a duplicate?",
+    "isPinned": "Is it pinned on the portal?",
+    "deleted": "Deleted?",
     "spam": "Spam",
     "isSensitive": "Sensitive words",
     "assignedToMe": "Assigned to me",
@@ -15,30 +16,36 @@
     "no": "No",
     "tags": "Tags",
     "categories": "Categories",
+    "category": "Category",
     "published": "Published",
     "unpublished": "Unpublished",
     "includeSensitiveWords": "Contains sensitive words",
-    "notIncludeSensitiveWords": "Not contain sensitive words",
-    "spamTrue": "Is spam",
-    "spamFalse": "Is not spam",
-    "duplicateTrue": "Is duplicate",
-    "duplicateFalse": "Is not duplicate",
-    "waitingForAcceptance": "Waiting for acceptance",
-    "noExpertVerdict": "Has no verdict"
+    "notIncludeSensitiveWords": "It does not contain sensitive words",
+    "spamTrue": "It is spam",
+    "spamFalse": "No spam",
+    "duplicateTrue": "It is a duplicate",
+    "duplicateFalse": "It is not a duplicate",
+    "waitingForAcceptance": "Pending for approval",
+    "noExpertVerdict": "Does not contain any verdict",
+    "isActive": "Is an account active?",
+    "accountNotActive": "Inactive",
+    "accountActive": "Active",
+    "isExpired": "Is an invitation expired?",
+    "verifiedByExpert": "Is verified by expert?"
   },
   "verdictFormOptions": {
     "verdict": "Verifiable",
-    "spam": "Not suitable for verification",
+    "spam": "It cannot be verified",
     "duplicate": "Duplicate"
   },
   "verdictTypes": {
     "no_verdict": "No verdict",
     "true": "True",
-    "false": "Fake News",
-    "unidentified": "Unverifiable",
+    "false": "Fake news",
+    "unidentified": "Not verifiable",
     "spam": "Spam",
-    "awaiting": "Awaiting expert opinion",
-    "dispute": "Dispute"
+    "awaiting": "Pending for the expert's verdict",
+    "dispute": "Disputable"
   },
   "specializationTypes": {
     "journalism": "Journalism",
@@ -46,24 +53,24 @@
     "physics": "Physics",
     "IT": "IT",
     "chemistry": "Chemistry",
-    "economy": "Economy",
+    "economy": "Economics",
     "other": "Other"
   },
   "rolesNames": {
-    "admin": "Admin",
-    "expert": "Expert",
-    "fact_checker": "Community",
+    "admin": "Administrator",
     "moderator": "Moderator",
-    "specialist": "Specialist"
+    "expert": "PAP's Expert",
+    "specialist": "Specialist",
+    "fact_checker": "Community"
   },
   "menuItems": {
-    "submissions": "Submissions",
+    "submissions": "Notifications",
     "history": "History",
     "settings": "Settings",
     "community": "Community",
     "experts": "Experts",
-    "specialists": "Specialists",
     "invitations": "Invitations",
+    "specialists": "Specialists",
     "moderators": "Moderators",
     "guide": "Guide"
   },
@@ -74,110 +81,116 @@
     "update": "Update",
     "cancel": "Cancel",
     "send": "Send",
-    "noResults": "No results.",
+    "noResults": "No results",
     "updated": "Updated!",
     "saved": "Saved!"
   },
   "layout": {
-    "textUnderLogo": "Admin panel",
-    "logout": "Logout"
+    "textUnderLogo": "Administration panel",
+    "logout": "Log out"
   },
   "fields": {
     "email": "E-mail",
     "password": "Password",
-    "repeatPassword": "Repeat password",
-    "nameAndSurname": "Name and surname",
+    "repeatPassword": "Repeat the password",
+    "nameAndSurname": "First and second Name",
     "specialization": "Specialization",
     "search": "Search",
     "language": "Language"
   },
   "login": {
     "title": "Log in",
-    "subtitle": "Thank you that you fight with us against the plague of fake news.",
+    "subtitle": "Thank you for fighting with us against the disinformation accompanying the coronavirus epidemic! #fakehunter.",
     "rememberMe": "Remember me",
     "btn": "Log in",
-    "forgotPassword": "Forgot password?",
-    "cta": "Do you want to help us? Become one of the community fact-checkers!"
+    "forgotPassword": "You forgot your password?",
+    "cta": "Want to join the community fighting disinformation? Report back!"
   },
   "register": {
-    "title": "Sign up",
-    "subtitle": "Thank you for your application! Register and join the FakeHunter community.",
+    "title": "Registration",
+    "subtitle": "Thank you for your application! Register and join the community of the #FakeHunter.",
     "success": "Registration was successful! <2>Go to login page</2>.",
-    "alreadyHaveAccount": "Already have an account? Sign In!",
-    "agreement": "I agree to have my personal data processed within the scope necessary for the application to work.",
+    "alreadyHaveAccount": "Already have an account? Log in!",
+    "agreement": "I consent to the processing of my personal data (i.e. name and surname and e-mail address) for the purpose of setting up and maintaining an account on this website. I know that giving consent is voluntary, but necessary in order to register. I can withdraw my consent at any time.",
     "sendBtn": "Sign up"
   },
   "passwordReset": {
     "title": "Reset password",
-    "subtitle": "Set a new password. The password should contain at least 8 characters, one upper case letter, number and special character.",
-    "success": "Your password has been changed. Go to <2>login</2>.",
-    "btn": "Set",
-    "backToLogin": "Back to login page"
+    "subtitle": "Set a new password. Password should contain at least 8 characters, one capital letter, one number and a special character.",
+    "success": "Your password has been changed. Go to login page.",
+    "btn": "Change password",
+    "backToLogin": "Back to login"
   },
   "passwordResetRequest": {
     "title": "Reset password",
-    "subtitle": "Enter your email below and we'll send you a link to reset your password.",
-    "success": "Instructions to reset your password will be sent to you shortly. Please check your email.",
+    "subtitle": "Enter the e-mail used to create the account. We will send an instruction on how to reset the password.",
+    "success": "We have sent further instructions on how to reset your password to the e-mail address provided.",
     "btn": "Send",
-    "backToLogin": "Back to login page"
+    "backToLogin": "Back to login"
   },
   "submissions": {
-    "title": "Submissions",
-    "sourceLink": "Source URL",
+    "title": "Notifications",
+    "sourceLink": "Source link",
     "details": "Details",
-    "duplicate": "Duplikat",
+    "duplicate": "Duplicate",
     "sensitive": "Sensitive words",
     "comment": "Comment",
     "assignedToMe": "Assigned to me",
     "assignedToOther": "Assigned to another expert",
-    "pinned": "Pinned to portal",
+    "pinned": "Pinned on the portal",
     "verifiedByYou": "Verified by you"
   },
   "history": {
-    "title": "Submissions history",
+    "title": "Report history",
     "noResults": "No results."
   },
   "users": {
-    "nameAndSurname": "Name and surname",
+    "nameAndSurname": "Name and Surname",
     "email": "E-mail",
     "specialization": "Specialization",
-    "submissionsCount": "Verified/Assigned",
-    "registerDate": "Register date",
-    "added": "User added",
+    "verified": "Verified",
+    "assigned": "Assigned",
+    "registerDate": "Registration date",
+    "added": "Added",
     "addNextBtn": "Add next",
     "addBtn": "Add",
-    "specialistInfo": "Dodaj najpierw kategorie tematyczne w ustawieniach.",
+    "specialistInfo": "First add subject categories in settings.",
     "changeRole": "Change role",
-    "deactivate": "Dezaktywuj konto",
-    "specialistDomain": "Przypisana kategoria",
+    "deactivate": "Deactivate the account",
+    "specialistDomain": "Assigned category",
     "specialistDomainModal": "Specialist's category",
-    "noDataInfo": "No data."
+    "noDataInfo": "No data to display."
   },
   "community": {
     "title": "Community",
-    "addUser": "Add fact checker",
+    "addUser": "Add a fact checker",
     "options": "Options",
-    "deactivate": "Deactivate account",
-    "activate": "Activate account"
+    "deactivate": "Deactivate the account",
+    "activate": "Activate the account",
+    "promote": "Assign the role of an expert"
+  },
+  "specialists": {
+    "title": "Specialists",
+    "addUser": "Add a specialist"
   },
   "experts": {
     "title": "Experts",
-    "addUser": "Add expert",
+    "addUser": "Add an expert",
     "deactivate": "Deactivate",
     "activate": "Activate"
   },
   "invitations": {
     "title": "Invitations",
     "email": "E-mail",
-    "sendDate": "Invite date",
-    "status": "Invite status",
+    "sendDate": "Post date",
+    "status": "Invitation status",
     "linkStatus": "Link status",
-    "linkIsActive": "Link is active",
-    "linkIsExpired": "Link is expired",
+    "linkIsActive": "Link active",
+    "linkIsExpired": "The link has expired",
     "states": {
-      "waiting": "Waiting",
+      "waiting": "Pending",
       "used": "Used",
-      "failed": "Sending error",
+      "failed": "Failed sending",
       "in_progress": "Registration in progress"
     }
   },
@@ -185,93 +198,99 @@
     "label": "Tags",
     "add": "Add: \"{{tag}}\"",
     "tagsUpdated": "Tags updated!",
-    "errorSubmission": "Submission cannot have more than 6 tags."
+    "errorSubmission": "Submissions can have a maximum of 6 tags."
+  },
+  "categories": {
+    "label": "Categories",
+    "noCategory": "No categories to display."
   },
   "settings": {
     "title": "Settings",
     "sensitiveWords": {
       "title": "Sensitive words",
-      "info": "Moduł ten pozwala na dodanie wyrazów wrażliwych. Jeżeli słowa wrażliwe pojawią się w zgłaszanym tekście to na portalu werdykt opublikuje się dopiero po werdykcie eksperta.",
+      "info": "This module allows you to add sensitive words. If sensitive words appear in the submitted text, the verdict will be published on the portal only after the expert's verdict.",
       "inputLabel": "New sensitive word"
     },
     "notifications": {
-      "title": "E-mail notifications",
-      "info": "Ta sekcja pozwala na zarządzanie powiadomieniami email. Możesz zezwolić lub zrezygnować z dostawania powiadomień na temat nowych zgłoszeń.",
-      "inputLabel": "E-mail notifications"
+      "title": "Subscription to email notifications",
+      "info": "This section allows you to manage email notifications. You can opt-in or opt-out of receiving notifications about new requests.",
+      "inputLabel": "Email notifications"
     },
     "domains": {
       "title": "Categories",
-      "info": "Moduł ten pozwala na dodanie kategorii newsów. Kategorie te używane są do dzielenia zgłoszeń według dziedzin i przypisywania ich do specjalistów (ekspertów tematycznych).",
+      "info": "This module allows you to add news categories. These categories are used to break down entries by subject area and assign them to specialists (subject experts). ",
       "inputLabel": "New category"
     },
     "tags": {
       "title": "Tags",
-      "info": "Moduł ten pozwala na edycje tagów (hashtagów). Tagi pozwalają grupować zgłoszenia powiązane ze sobą tematycznie.",
+      "info": "This module allows you to edit tags (hashtags). Tags allow grouping related entries with each other thematically.",
       "inputLabel": "New tag"
     },
     "password": {
       "title": "Password change",
-      "info": "The password should contain at least 8 characters, one upper case letter, number and special character.",
-      "actualPassword": "Actual password",
+      "info": "The new password should contain: at least 8 characters, at least one capital letter, at least one digit, at least one special character",
+      "actualPassword": "Current password",
       "newPassword": "New password",
       "repeatNewPassword": "Repeat new password",
       "button": "Change password",
-      "successMsg": "Your password has been changed!"
+      "successMsg": "Your password has been successfully changed!"
     },
     "addBtn": "Add"
   },
   "details": {
-    "title": "Submission details",
-    "formSent": "Form has been sent",
-    "backToList": "Submissions list",
-    "expertVerdict": "Expert verdict",
+    "title": "Notification",
+    "formSent": "Form sent",
+    "backToList": "List of submissions",
+    "expertVerdict": "Expert's verdict",
     "submissionRemoved": "Submission removed",
     "removeBtn": "Remove submission",
-    "recoverBtn": "Recover submission",
-    "zoomPhoto": "Zoom screenshot",
+    "recoverBtn": "Restore submission",
+    "zoomPhoto": "Enlarge the photo",
     "sensitiveWords": "Sensitive words: ",
-    "reportedAt": "Reported at ",
+    "reportedAt": "Date of submission: ",
     "userComment": "User comment",
-    "informationContent": "Reported content",
-    "sourceLink": "Source URL",
-    "factCheckerVerdictTitle": "Community verdicts",
-    "factCheckerVerdict": "Verdict of fact checker no. ",
-    "noFactCheckerVerdict": "No fact checkers verdicts.",
-    "noExpertVerdict": "Expert verdict",
-    "assignedToMe": "Assigned to you.",
-    "assignedToOther": "Assigned to another expert.",
-    "dismissAssigment": "Dissmis assigment",
-    "domains": "Categories: "
+    "informationContent": "The content of the submission",
+    "sourceLink": "Source link",
+    "factCheckerVerdictTitle": "Community's verdict",
+    "factCheckerVerdict": "Fact checker's verdict",
+    "noFactCheckerVerdict": "No fakehunter verdict.",
+    "noExpertVerdict": "No Expert's verdict",
+    "assignedToMe": "This submission is assigned to you",
+    "assignedToOther": "This report has been assigned to another expert.",
+    "dismissAssigment": "Please do not assign",
+    "domains": "Assigned to category "
   },
   "adminDetails": {
-    "pinSubmission": "Przypnij zgłoszenie na portalu",
-    "unpinSubmission": "Odepnij zgłoszenie",
-    "removed": "Zgłoszenie usunięte",
-    "removeSubmission": "Usuń zgłoszenie",
-    "restoreSubmission": "Przywróć zgłoszenie",
-    "noScreenshot": "To zgłoszenie nie zawiera zrzutu ekranu.",
-    "uploadScreenshot": "Wgraj zrzut ekranu",
-    "editImage": "Edytuj zdjęcie",
-    "uploadNewImage": "Wgraj nowe zdjęcie",
-    "editSubmission": "Edytuj treść",
-    "dropzoneInfo": "Przeciągnij plik lub kliknij"
+    "pinSubmission": "Pin the submission on the portal",
+    "unpinSubmission": "Unpin the submission",
+    "removed": "Submission removed",
+    "removeSubmission": "Remove submission",
+    "restoreSubmission": "Restore submission",
+    "noScreenshot": "This report does not contain a screenshot.",
+    "uploadScreenshot": "Upload a screenshot",
+    "editImage": "Edit the photo",
+    "uploadNewImage": "Upload new photo",
+    "editSubmission": "Edit content",
+    "dropzoneInfo": "Drag the file or click",
+    "publish": "Publish",
+    "undoPublication": "Undo publication"
   },
   "verification": {
     "title": "Verification form",
-    "sendBtn": "Verify",
-    "formType": "Submission type",
-    "duplicate": "Is duplicate",
-    "duplicateLink": "Duplicate URL",
-    "duplicateLinkHelp": "Link to submission from our site eg. {{origin}}/submisions/e06339c3-3a43-444e-908b-1ba02f9397a4",
+    "sendBtn": "Verify your submission",
+    "formType": "Type of request",
+    "duplicate": "Duplicate submission",
+    "duplicateLink": "Link to the submission",
+    "duplicateLinkHelp": "Link from our system, e.g.{{origin}}/submisions/e06339c3-3a43-444e-908b-1ba02f9397a4",
     "submissionTitle": "Title",
-    "submissionTitleHelp": "Title should be neutral eg. questions",
-    "aboutCoronavirus": "Is about coronavirus?",
+    "submissionTitleHelp": "Enter a title in the form of a question, for example, \"Can pets carry the coronavirus?\"",
+    "aboutCoronavirus": "Concerns Coronavirus",
     "yourVerdict": "Your verdict",
     "verdict": "Verdict",
     "comment": "Substantiation",
     "sources": "Sources",
-    "sourcesHelp": "Sources which can prove your verdict",
-    "letterCount": "Letters: ",
+    "sourcesHelp": "Please include the sources on which you base your verdict",
+    "letterCount": "Number of characters: ",
     "author": "Author"
   },
   "languages": {
@@ -279,22 +298,22 @@
     "en": "English"
   },
   "validations": {
-    "required": "This field is required",
-    "min": "To pole wymaga conajmniej {{min}} znaków",
-    "max": "To pole może zawierać maksymalnie {{max}} znaków",
-    "email": "Podaj prawidłowy adres e-mail",
-    "url": "Podaj prawidłowy adres URL",
-    "passwordMin": "Hasło nie może być krótsze niż 8 znaków.",
-    "passwordBigLetter": "Hasło musi posiadać co najmniej jedną wielką literę.",
-    "passwordNumber": "Hasło musi posiadać co najmniej jedną cyfrę.",
-    "passwordSpecial": "Hasło musi posiadać co najmniej jeden znak specjalny.",
-    "passwordRepeat": "Hasła muszą być takie same.",
-    "registerAgreement": "Wyrażenie zgodny na przetwarzanie danych osobowych jest konieczne do założenia konta",
-    "requiredDuplicateUrl": "Podaj link do zduplikowanego zgłoszenia",
-    "requiredTitle": "Nadaj tytuł temu zgłoszeniu",
-    "requiredVerdict": "Wskaż swój werdykt",
-    "requiredVerdictComment": "Uzasadnij swój werdykt",
-    "requiredSources": "Podaj wykorzystane źródła",
-    "minVerdictComment": "Uzasadnienie nie może być krótsze niż 500 znaków"
+    "required": "Field required",
+    "min": "This field requires at least {{min}} characters",
+    "max": "This field may contain up to {{max}} characters",
+    "email": "Please enter a valid e-mail address",
+    "url": "Please enter a valid URL",
+    "passwordMin": "The password cannot be shorter than 8 characters.",
+    "passwordBigLetter": "Password must contain at least one uppercase letter.",
+    "passwordNumber": "Password must have at least one digit.",
+    "passwordSpecial": "Password must contain at least one special character.",
+    "passwordRepeat": "Passwords must be the same.",
+    "registerAgreement": "Expressing consent to the processing of personal data is necessary to set up an account",
+    "requiredDuplicateUrl": "Provide a link to the duplicate request",
+    "requiredTitle": "Give this request a title",
+    "requiredVerdict": "Show your verdict",
+    "requiredVerdictComment": "Give reasons for your verdict",
+    "requiredSources": "Please provide the sources used fo verdict",
+    "minVerdictComment": "The justification cannot be shorter than 500 characters"
   }
 }

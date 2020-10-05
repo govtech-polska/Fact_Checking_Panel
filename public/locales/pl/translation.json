@@ -16,6 +16,7 @@
     "no": "Nie",
     "tags": "Tagi",
     "categories": "Kategorie",
+    "category": "Kategoria",
     "published": "Opublikowane",
     "unpublished": "Nieopublikowane",
     "includeSensitiveWords": "Zawiera wrażliwe słowa",
@@ -25,7 +26,12 @@
     "duplicateTrue": "Jest duplikatem",
     "duplicateFalse": "Nie jest duplikatem",
     "waitingForAcceptance": "Czeka na akceptację",
-    "noExpertVerdict": "Nie posiada werdyktu"
+    "noExpertVerdict": "Nie posiada werdyktu",
+    "isActive": "Zdezaktywowane?",
+    "accountNotActive": "Zdezaktywowane",
+    "accountActive": "Aktywne",
+    "isExpired": "Czy przeterminowane?",
+    "verifiedByExpert": "Zweryfikowane przez eksperta?"
   },
   "verdictFormOptions": {
     "verdict": "Weryfikowalne",
@@ -163,6 +169,10 @@
     "activate": "Aktywuj konto",
     "promote": "Przydziel rolę eksperta"
   },
+  "specialists": {
+    "title": "Specjaliści",
+    "addUser": "Dodaj specjalistę"
+  },
   "experts": {
     "title": "Eksperci",
     "addUser": "Dodaj eksperta",
@@ -189,6 +199,10 @@
     "add": "Dodaj: \"{{tag}}\"",
     "tagsUpdated": "Tagi zaktualizowane!",
     "errorSubmission": "Zgłoszenie może mieć maksymalnie 6 tagów."
+  },
+  "categories": {
+    "label": "Kategorie",
+    "noCategory": "Brak kategorii. Możesz dodać kategorie w ustawieniach."
   },
   "settings": {
     "title": "Ustawienia",
@@ -257,7 +271,9 @@
     "editImage": "Edytuj zdjęcie",
     "uploadNewImage": "Wgraj nowe zdjęcie",
     "editSubmission": "Edytuj treść",
-    "dropzoneInfo": "Przeciągnij plik lub kliknij"
+    "dropzoneInfo": "Przeciągnij plik lub kliknij",
+    "publish": "Opublikuj",
+    "undoPublication": "Cofnij publikację"
   },
   "verification": {
     "title": "Formularz weryfikacji",
