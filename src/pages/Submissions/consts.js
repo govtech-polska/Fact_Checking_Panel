@@ -126,7 +126,7 @@ const expertFilters = [
     options: [
       ALL_OPTIONS,
       {
-        i18nkey: 'filters.waitingForVerification',
+        i18nkey: 'filters.waitingForAcceptance',
         label: 'Czeka na akceptację',
         value: 'true'
       },

@@ -39,9 +39,9 @@ const AssignExpert = ({ onUpdate, defaultValue, error, isUpdatting, verdictExist
     return (
       <Paper className={styles.assignExpertInfo}>
         <Typography variant="caption" className={styles.assignExpertInfoLabel}>
-          Przypisz eksperta
+          {t('adminDetails.assignExpert')}
         </Typography>
-        <Typography variant="body2">To zgłoszenie posiada już werdykt eksperta.</Typography>
+        <Typography variant="body2">{t('adminDetails.assignExpertInfoIfVerdictExists')}</Typography>
       </Paper>
     );
   }
@@ -54,10 +54,12 @@ const AssignExpert = ({ onUpdate, defaultValue, error, isUpdatting, verdictExist
         onInputChange={debounce(handleInputChange, 150)}
         onChange={handleChange}
         options={list}
-        noOptionsText="Brak wyników. Zacznij wpisywać nazwę lub email eksperta."
+        noOptionsText={t('adminDetails.assignExpertNoResults')}
         getOptionLabel={option => option.email}
         getOptionSelected={(option, value) => option.id === value.id}
-        renderInput={params => <TextField {...params} label="Przypisz eksperta" helperText={error} error={!!error} />}
+        renderInput={params => (
+          <TextField {...params} label={t('adminDetails.assignExpert')} helperText={error} error={!!error} />
+        )}
         renderOption={option => {
           return (
             <div className={styles.assignItem}>
@@ -65,7 +67,11 @@ const AssignExpert = ({ onUpdate, defaultValue, error, isUpdatting, verdictExist
                 <Typography>{option.name}</Typography>
                 <Typography variant="caption">{option.email}</Typography>
               </div>
-              {option.domain && <Typography variant="caption">Kategoria: {option.domain.name}</Typography>}
+              {option.domain && (
+                <Typography variant="caption">
+                  {t('users.specialistDomain')}: {option.domain.name}
+                </Typography>
+              )}
             </div>
           );
         }}

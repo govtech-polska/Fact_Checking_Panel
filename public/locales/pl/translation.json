@@ -87,7 +87,8 @@
   },
   "layout": {
     "textUnderLogo": "Panel administracyjny",
-    "logout": "Wyloguj"
+    "logout": "Wyloguj",
+    "topbarTitle": "#FakeHunter"
   },
   "fields": {
     "email": "E-mail",
@@ -273,7 +274,10 @@
     "editSubmission": "Edytuj treść",
     "dropzoneInfo": "Przeciągnij plik lub kliknij",
     "publish": "Opublikuj",
-    "undoPublication": "Cofnij publikację"
+    "undoPublication": "Cofnij publikację",
+    "assignExpert": "Przypisz eksperta",
+    "assignExpertNoResults": "Brak wyników. Zacznij wpisywać nazwę lub email eksperta.",
+    "assignExpertInfoIfVerdictExists": "To zgłoszenie posiada już werdykt eksperta."
   },
   "verification": {
     "title": "Formularz weryfikacji",
@@ -315,5 +319,15 @@
     "requiredVerdictComment": "Uzasadnij swój werdykt",
     "requiredSources": "Podaj wykorzystane źródła",
     "minVerdictComment": "Uzasadnienie nie może być krótsze niż 500 znaków"
+  },
+  "editor": {
+    "exit": "Wyjdź",
+    "save": "Zapisz",
+    "download": "Pobierz",
+    "draw": "Rysowanie",
+    "move": "Przesuwanie",
+    "delete": "Usuwanie",
+    "bordersShow": "Pokaż obramowania pomocnicze",
+    "bordersHide": "Ukryj obramowania pomocnicze"
   }
 }

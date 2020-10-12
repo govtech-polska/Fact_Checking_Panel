@@ -87,7 +87,8 @@
   },
   "layout": {
     "textUnderLogo": "Administration panel",
-    "logout": "Log out"
+    "logout": "Log out",
+    "topbarTitle": "#FakeHunter"
   },
   "fields": {
     "email": "E-mail",
@@ -273,7 +274,10 @@
     "editSubmission": "Edit content",
     "dropzoneInfo": "Drag the file or click",
     "publish": "Publish",
-    "undoPublication": "Undo publication"
+    "undoPublication": "Undo publication",
+    "assignExpert": "Assign expert",
+    "assignExpertNoResults": "No results. You can search for expert by name or email.",
+    "assignExpertInfoIfVerdictExists": "This report already has an expert verdict."
   },
   "verification": {
     "title": "Verification form",
@@ -315,5 +319,15 @@
     "requiredVerdictComment": "Give reasons for your verdict",
     "requiredSources": "Please provide the sources used fo verdict",
     "minVerdictComment": "The justification cannot be shorter than 500 characters"
+  },
+  "editor": {
+    "exit": "Exit",
+    "save": "Save",
+    "download": "Download",
+    "draw": "Draw",
+    "move": "Move",
+    "delete": "Delete",
+    "bordersShow": "Show guides",
+    "bordersHide": "Hide guides"
   }
 }
