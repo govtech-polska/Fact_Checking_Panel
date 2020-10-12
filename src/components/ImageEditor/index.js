@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { useWindowSize } from '@react-hook/window-size/throttled';
+import { useTranslation } from 'react-i18next';
 import { Modal, Button, ButtonGroup, Tooltip } from '@material-ui/core';
 import BrushIcon from '@material-ui/icons/Brush';
 import OpenWithIcon from '@material-ui/icons/OpenWith';
@@ -25,6 +26,7 @@ const MODES = {
 };
 
 const ImageEditor = ({ image, isOpen, onClose }) => {
+  const { t } = useTranslation();
   const { id } = useParams();
   const dispatch = useDispatch();
   const { imageUploadState } = useSelector(({ admin }) => ({
@@ -192,34 +194,34 @@ const ImageEditor = ({ image, isOpen, onClose }) => {
         </Alert>
         <div className={styles.actions}>
           <ButtonGroup variant="contained" className={styles.buttons}>
-            <Button onClick={onClose}>Wyjdź</Button>
+            <Button onClick={onClose}>{t('editor.exit')}</Button>
           </ButtonGroup>
           <ButtonGroup variant="contained" className={styles.buttons}>
-            <Tooltip title="Rysowanie">
+            <Tooltip title={t('editor.draw')}>
               <Button color={getIconColor(MODES.PAINT)} onClick={changeMode(MODES.PAINT)}>
                 <BrushIcon />
               </Button>
             </Tooltip>
 
-            <Tooltip title="Przesuwanie">
+            <Tooltip title={t('editor.move')}>
               <Button color={getIconColor(MODES.EDIT)} onClick={changeMode(MODES.EDIT)}>
                 <OpenWithIcon />
               </Button>
             </Tooltip>
 
-            <Tooltip title="Usuwanie">
+            <Tooltip title={t('editor.delete')}>
               <Button color={getIconColor(MODES.REMOVE)} onClick={changeMode(MODES.REMOVE)}>
                 <DeleteOutlineIcon />
               </Button>
             </Tooltip>
 
-            <Tooltip title={showBorders ? 'Ukryj obramowania pomocniczne' : 'Pokaż obramowania pomocnicze'}>
+            <Tooltip title={t(showBorders ? 'editor.bordersHide' : 'editor.bordersShow')}>
               <Button onClick={toggleBorders}>{showBorders ? <VisibilityIcon /> : <VisibilityOffIcon />}</Button>
             </Tooltip>
           </ButtonGroup>
           <ButtonGroup variant="contained" className={styles.buttons} disabled={imageUploadState.isFetching}>
-            <Button onClick={updateImage}>Zapisz</Button>
-            <Button onClick={downloadImage}>Pobierz</Button>
+            <Button onClick={updateImage}>{t('editor.save')}</Button>
+            <Button onClick={downloadImage}>{t('editor.download')}</Button>
           </ButtonGroup>
         </div>
       </div>
