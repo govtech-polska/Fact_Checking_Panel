@@ -22,7 +22,7 @@
     "i18next-http-backend": "1.0.18",
     "lodash.throttle": "4.1.1",
     "material-ui-dropzone": "3.0.0",
-    "node-sass": "4.13.1",
+    "node-sass": "7.0.0",
     "qs": "6.9.1",
     "react": "16.13.0",
     "react-dom": "16.13.0",
