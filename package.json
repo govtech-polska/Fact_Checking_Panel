@@ -23,7 +23,7 @@
     "lodash.throttle": "4.1.1",
     "material-ui-dropzone": "3.0.0",
     "node-sass": "4.13.1",
-    "qs": "6.9.1",
+    "qs": "6.9.7",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "react-i18next": "11.7.1",
